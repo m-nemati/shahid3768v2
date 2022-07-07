@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/APP Basij/app/src/main/res/font-v26/font.xml" value="0.2791666666666667" />
+        <entry key="..\:/APP Basij/app/src/main/res/font/font.xml" value="0.2791666666666667" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_barotkobian.xml" value="0.264" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_golabi.xml" value="0.24895833333333334" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_khalili.xml" value="0.24895833333333334" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_rezaei.xml" value="0.24895833333333334" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_sadeghpour.xml" value="0.24895833333333334" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/APP Basij/app/src/main/res/layout/activity_teymori.xml" value="0.24895833333333334" />
+        <entry key="..\:/APP Basij/app/src/main/res/menu/menu.xml" value="1.707142857142857" />
+        <entry key="..\:/studentSh-master/app/src/main/res/font-v26/font.xml" value="0.27487179487179486" />
+        <entry key="..\:/studentSh-master/app/src/main/res/font/font.xml" value="0.27487179487179486" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout-v26/activity_life_barokobiyan.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_golabi.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_khalili.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_barokobiyan.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_golabi.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_khalili.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_rezaei.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_sadeghpour.xml" value="0.24895833333333334" />
+        <entry key="..\:/studentSh-master/app/src/main/res/layout/activity_life_teymori.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">شهدای دانش آموزش</string>
+    <string name="title1">شهدای دانش آموز</string>
+    <string name="title2">منطقه رحمت آباد و بلوکات</string>
+
+    <string name="btn_sh1">شهید علی باروتکوبیان</string>
+    <string name="btn_sh2">شهید منش صادقپور</string>
+    <string name="btn_sh3">شهید سید صادق تیموری</string>
+    <string name="btn_sh4">شهید عین اله گلابی</string>
+    <string name="btn_sh5">شهید نوید خلیلی</string>
+    <string name="btn_sh6">شهید داراب رضایی</string>
+
+    <string name="txt_sub">شهدای سرافراز دانش آموز رحمت آباد و بلوکات</string>
+    <string name="txt_date_shahid">تاریخ شهادت:</string>
+    <string name="txt_location_shahid">محل شهادت:</string>
+
+    <string name="date_sh1">1364/11/20</string>
+    <string name="date_sh2">1364/11/20</string>
+    <string name="date_sh3">1364/11/6</string>
+    <string name="date_sh4">1364/10/21</string>
+    <string name="date_sh5">1364/11/6</string>
+    <string name="date_sh6">1361/5/15</string>
+
+    <string name="location_sh1">شلمچه</string>
+    <string name="location_sh2">شلمچه</string>
+    <string name="location_sh3">جاده خرمهشر-اهواز</string>
+    <string name="location_sh4">شلمچه</string>
+    <string name="location_sh5">جاده خرمشهر-اهواز</string>
+    <string name="location_sh6">شلمچه</string>
+
+    <string name="btn_recommendation">وصیت نامه</string>
+    <string name="btn_life_story">زندگی نامه</string>
+
+    <string name="menu_about_me">درباره ما</string>
+    <string name="exit_app">خروج از برنامه</string>
+
+
+    <string name="barotkobian_life">
+        "شهید علی باروتکوبیان\n\n"
+        "سوم شهریور 1344 در روستای اسطلخ جان از توابع رحمت آباد شهرستان رودبار زیتون دیده به جهان گشود. پدرش عزیزا... کشاورز بود. از کودکی علاقه ی زیادی به درس خواندن داشت و از هوش و زیرکی زیادی برخوردار بود. نمازهایش را در مسجد و اول وقت می خواند. صدای اذان مسجد توسط او در روستا پخش می شد. مخلص و بی ریا بود.همراه با درس خواندن کار هم می کرد و بیشتر وقت او صرف یاری مردم می شد. رفتار و کردار نیکش برای همه الگو بود. در هوای گرم تابستان برای تامین مخارج زندگی با دهان روزه کارگری می کرد. در کودکی پدرش به بیماری ناعلاجی مبتلا شد و بعد از مدتی بستری شدن در یکی از بیمارستان های مشهد به روستایی در همان جا منتقل و آنجا نگهداری شد. مسئولیت سخت زندگی بر عهده مادر درد کشیده اش بود."
+    </string>
+    <string name="sadeghpour_life"></string>
+    <string name="teymouri_life"></string>
+    <string name="golabi_life"></string>
+    <string name="khalili_life"></string>
+    <string name="rezaei_life"></string>
+
+</resources>
