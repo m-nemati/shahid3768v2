@@ -1,14 +1,17 @@
 package ir.rahmatabad.shahid3768
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import android.media.MediaPlayer
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -66,20 +69,57 @@ class MainActivity : AppCompatActivity() {
     } // ********  end of onStop Method *********
 
     override fun onPause() {
-        Toast.makeText(this, "PPPPauuse", Toast.LENGTH_SHORT).show()
         media1.pause()
         super.onPause()
     }
     override fun onResume() {
-        Toast.makeText(this, "REEEEE", Toast.LENGTH_SHORT).show()
         media1.start()
         super.onResume()
     }
 
+    // ********  Create Option menu *********
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.menu, menu)
         return true
 
     }
+
+    // ********  Handel menu events *********
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+        // Handle item selection
+        return when (item.itemId) {
+            R.id.about_me -> {
+                aboutMe()
+                true
+            }
+            R.id.exit_app -> {
+                showExitDialog();
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    // ********  About me *********
+    private fun aboutMe(){
+        val intent = Intent(this,AboutmeActivity::class.java )
+        startActivity(intent)
+    }
+
+    // ********  Alert dialog for exit application *********
+    private fun showExitDialog() {
+        AlertDialog.Builder(this).setMessage("تأئید خروج از برنامه؟")
+            .setPositiveButton("بلی",
+                DialogInterface.OnClickListener { paramAnonymousDialogInterface, paramAnonymousInt ->
+                    System.exit(
+                        0
+                    )
+                })
+            .setNegativeButton("خیر",
+                DialogInterface.OnClickListener { paramAnonymousDialogInterface, paramAnonymousInt -> })
+            .show()
+    }
+
 } // ********  end of Class MainActivity *********

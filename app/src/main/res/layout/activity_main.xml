@@ -28,21 +28,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.15" />
+        app:layout_constraintGuide_percent="0.13" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/glhb4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4" />
+        app:layout_constraintGuide_percent="0.38" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/glhb5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.63" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/glvs1"
@@ -68,7 +68,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="80dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/glve1"
         app:layout_constraintStart_toStartOf="@+id/glvs1"
@@ -77,9 +77,9 @@
     <!-- ********* Circle Image Views ******************* -->
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid1img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glvcenter"
@@ -88,9 +88,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image2"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid2img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glve1"
@@ -99,9 +99,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image3"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid3img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glvcenter"
@@ -110,9 +110,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image4"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid4img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glve1"
@@ -121,9 +121,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image5"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid5img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glvcenter"
@@ -132,9 +132,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image6"
-        android:layout_width="85dp"
-        android:layout_height="85dp"
-        android:src="@drawable/bgi"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@drawable/shahid6img"
         app:civ_border_color="#FF000000"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toStartOf="@+id/glve1"
@@ -151,8 +151,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image"
         app:layout_constraintStart_toStartOf="@+id/profile_image"
         app:layout_constraintTop_toBottomOf="@+id/profile_image" />
@@ -165,8 +166,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image2"
         app:layout_constraintStart_toStartOf="@+id/profile_image2"
         app:layout_constraintTop_toBottomOf="@+id/profile_image2" />
@@ -179,8 +181,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image3"
         app:layout_constraintStart_toStartOf="@+id/profile_image3"
         app:layout_constraintTop_toBottomOf="@+id/profile_image3" />
@@ -193,8 +196,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image4"
         app:layout_constraintStart_toStartOf="@+id/profile_image4"
         app:layout_constraintTop_toBottomOf="@+id/profile_image4" />
@@ -207,8 +211,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image5"
         app:layout_constraintStart_toStartOf="@+id/profile_image5"
         app:layout_constraintTop_toBottomOf="@+id/profile_image5" />
@@ -221,8 +226,9 @@
         android:background="@color/blue_500"
         app:backgroundTint="@null"
         android:textColor="@color/black"
-        android:fontFamily="@font/font"
-        android:layout_marginTop="3dp"
+        android:fontFamily="@font/vazir"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="@+id/profile_image6"
         app:layout_constraintStart_toStartOf="@+id/profile_image6"
         app:layout_constraintTop_toBottomOf="@+id/profile_image6" />

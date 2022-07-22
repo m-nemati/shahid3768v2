@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shahid3768">
         <activity
+            android:name=".VasiatActivitySh6"
+            android:exported="false" />
+        <activity
+            android:name=".VasiatActivitySh5"
+            android:exported="false" />
+        <activity
+            android:name=".VasiatActivitySh4"
+            android:exported="false" />
+        <activity
+            android:name=".VasiatActivitySh3"
+            android:exported="false" />
+        <activity
+            android:name=".VasiatActivitySh2"
+            android:exported="false" />
+        <activity
+            android:name=".VasiatActivitySh1"
+            android:exported="false" />
+        <activity
+            android:name=".AboutmeActivity"
+            android:exported="false" />
+        <activity
             android:name=".LifeRezaeiActivity"
             android:exported="false" />
         <activity

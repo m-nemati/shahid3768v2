@@ -54,7 +54,7 @@
         android:id="@+id/profile_image"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/bgi"
+        android:src="@drawable/shahid2img"
         app:civ_border_color="@color/light_green_700"
         app:civ_border_width="4dp"
         app:layout_constraintEnd_toStartOf="@+id/v2"
@@ -65,7 +65,7 @@
         android:id="@+id/txt_shadi_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/font"
+        android:fontFamily="@font/esfehan"
         android:text="@string/btn_sh2"
         android:textColor="@color/red_600"
         android:textSize="28sp"
@@ -152,5 +152,16 @@
         app:layout_constraintEnd_toStartOf="@+id/v3"
         app:layout_constraintStart_toStartOf="@+id/v1"
         app:layout_constraintTop_toTopOf="@+id/h3" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sadeghpor2"
+        app:civ_border_color="@color/red_600"
+        app:civ_border_width="2dp"
+        android:layout_marginBottom="@dimen/margin_low"
+        app:layout_constraintBottom_toTopOf="@+id/h2"
+        app:layout_constraintEnd_toStartOf="@+id/v2"
+        app:layout_constraintStart_toStartOf="@+id/v1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

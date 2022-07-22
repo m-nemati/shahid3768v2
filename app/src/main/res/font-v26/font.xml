@@ -5,4 +5,9 @@
         android:fontWeight="400"
         android:font="@font/esfehan" />
 
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/vazir" />
+
 </font-family>

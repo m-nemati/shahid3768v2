@@ -3,4 +3,7 @@
     <font
         android:font="@font/esfehan" />
 
+    <font
+        android:font="@font/vazir" />
+
 </font-family>

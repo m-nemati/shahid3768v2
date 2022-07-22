@@ -13,6 +13,7 @@
         android:text="@string/barotkobian_life"
         android:fontFamily="@font/font"
         android:textSize="18sp"
+        android:padding="2dp"
         android:textColor="@color/black"
         android:background="@color/blur_white"
         android:lineSpacingExtra="10sp"

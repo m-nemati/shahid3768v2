@@ -14,10 +14,16 @@ class SadeghpourActivity : AppCompatActivity() {
 
         title = "شهید صادقپور"
         val btnLifeStyle2: Button =findViewById(R.id.btn_life_sha2)
+        val btnRecomend2: Button = findViewById(R.id.btn_recomend_sha2)
 
         btnLifeStyle2.setOnClickListener {
             val intent = Intent(this,LifeSadeghpourActivity::class.java )
             startActivity(intent)
+        }
+
+        btnRecomend2.setOnClickListener {
+            val intent2 = Intent(this, VasiatActivitySh2::class.java)
+            startActivity(intent2)
         }
     }
 }
